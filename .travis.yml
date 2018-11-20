@@ -22,3 +22,5 @@ script:
 - python manage.py test
 addons:
   postgresql: "9.6"
+notifications:
+    slack: pgpi-us:19Ex2P1jiL5buD9FVo3gfr57
